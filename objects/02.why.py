@@ -25,8 +25,14 @@ print('Me llamo', dog_1["name"], "y tengo", dog_1["age"], "años")
 
 # Entenderemos los conceptos necesarios para pasar de un código secuencial a uno en el que podamos crear objetos que respondan a sus propios métodos. 
 
+class Dog:
+  name= 'Fifi'
+  age = 4
 
+  def sayName(self):
+    print(self.name)  
 
-
+doggie = Dog()
+doggie.sayName()
 
 
